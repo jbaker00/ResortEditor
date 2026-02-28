@@ -130,8 +130,8 @@ function renderResorts(resorts) {
         ${r.description ? `<p class="resort-desc">${escHtml(r.description)}</p>` : ""}
       </div>
       <div class="resort-actions">
-        <button class="btn btn-sm btn-ghost" onclick="editResort(${JSON.stringify(escHtml(r.id))})">Edit</button>
-        <button class="btn btn-sm btn-danger" onclick="deleteResort(${JSON.stringify(escHtml(r.id))}, ${JSON.stringify(escHtml(r.name))})">Delete</button>
+        <button class="btn btn-sm btn-ghost" onclick="editResort(${escHtml(JSON.stringify(r.id))})">Edit</button>
+        <button class="btn btn-sm btn-danger" onclick="deleteResort(${escHtml(JSON.stringify(r.id))}, ${escHtml(JSON.stringify(r.name))})">Delete</button>
       </div>
     </div>`
     )
