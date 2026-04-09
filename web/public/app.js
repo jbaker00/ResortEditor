@@ -81,7 +81,7 @@ signInBtn.addEventListener("click", async () => {
 signOutBtn.addEventListener("click", () => signOut(auth));
 
 async function checkAdminAllowlist(email) {
-  const ref = doc(db, "admins", email);
+  const ref = doc(db, "resort_admins", email);
   const snap = await getDoc(ref);
   return snap.exists();
 }

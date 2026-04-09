@@ -1,6 +1,8 @@
 import SwiftUI
 import FirebaseCore
 import GoogleSignIn
+
+#if canImport(UIKit)
 import UIKit
 
 class AppDelegate: NSObject, UIApplicationDelegate {
@@ -20,10 +22,23 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         GIDSignIn.sharedInstance.handle(url)
     }
 }
+#elseif canImport(AppKit)
+import AppKit
+
+class AppDelegate: NSObject, NSApplicationDelegate {
+    func applicationDidFinishLaunching(_ notification: Notification) {
+        FirebaseApp.configure()
+    }
+}
+#endif
 
 @main
 struct ResortEditorApp: App {
+    #if canImport(UIKit)
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    #elseif canImport(AppKit)
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    #endif
     @StateObject private var authService = AuthService()
 
     var body: some Scene {

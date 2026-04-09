@@ -42,7 +42,7 @@ class AuthService: ObservableObject {
                 currentUser = authResult.user
                 isSignedIn = true
             } else {
-                try await Auth.auth().signOut()
+                try Auth.auth().signOut()
                 GIDSignIn.sharedInstance.signOut()
                 errorMessage = "Access denied. \(email) is not an authorized admin."
             }

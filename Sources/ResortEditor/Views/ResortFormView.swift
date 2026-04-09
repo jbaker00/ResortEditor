@@ -11,6 +11,7 @@ struct ResortFormView: View {
     @State private var category: String
     @State private var airport: String
     @State private var url: String
+    @State private var bookingUrl: String
 
     private let existingId: String?
     private let isNew: Bool
@@ -27,6 +28,7 @@ struct ResortFormView: View {
         _category = State(initialValue: resort?.category ?? "")
         _airport = State(initialValue: resort?.airport ?? "")
         _url = State(initialValue: resort?.url ?? "")
+        _bookingUrl = State(initialValue: resort?.bookingUrl ?? "https://www.expedia.com")
     }
 
     var body: some View {
@@ -66,6 +68,10 @@ struct ResortFormView: View {
                     TextField("https://...", text: $url)
                         .multilineTextAlignment(.trailing)
                 }
+                LabeledContent("Booking URL") {
+                    TextField("https://www.expedia.com", text: $bookingUrl)
+                        .multilineTextAlignment(.trailing)
+                }
             }
 
             Section("Description") {
@@ -90,7 +96,8 @@ struct ResortFormView: View {
                         country: country,
                         category: category,
                         airport: airport,
-                        url: url
+                        url: url,
+                        bookingUrl: bookingUrl
                     )
                     onDismiss(resort)
                 }

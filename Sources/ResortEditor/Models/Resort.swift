@@ -11,6 +11,7 @@ struct Resort: Identifiable, Codable, Hashable {
     var category: String
     var airport: String
     var url: String
+    var bookingUrl: String
 
     init(
         id: String? = nil,
@@ -21,7 +22,8 @@ struct Resort: Identifiable, Codable, Hashable {
         country: String = "",
         category: String = "",
         airport: String = "",
-        url: String = ""
+        url: String = "",
+        bookingUrl: String = "https://www.expedia.com"
     ) {
         self.id = id
         self.name = name
@@ -32,6 +34,7 @@ struct Resort: Identifiable, Codable, Hashable {
         self.category = category
         self.airport = airport
         self.url = url
+        self.bookingUrl = bookingUrl
     }
 
     var dictionary: [String: Any] {
@@ -43,7 +46,25 @@ struct Resort: Identifiable, Codable, Hashable {
             "country": country,
             "category": category,
             "airport": airport,
-            "url": url
+            "url": url,
+            "bookingUrl": bookingUrl
         ]
+    }
+
+    // Custom decoder so existing documents without bookingUrl still load
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        _id = try c.decode(DocumentID<String>.self, forKey: .id)
+        name = try c.decode(String.self, forKey: .name)
+        image = try c.decode(String.self, forKey: .image)
+        description = try c.decode(String.self, forKey: .description)
+        city = try c.decode(String.self, forKey: .city)
+        country = try c.decode(String.self, forKey: .country)
+        category = try c.decode(String.self, forKey: .category)
+        airport = try c.decode(String.self, forKey: .airport)
+        url = try c.decode(String.self, forKey: .url)
+        bookingUrl = (try? c.decode(String.self, forKey: .bookingUrl))
+            .flatMap { $0.isEmpty ? nil : $0 }
+            ?? "https://www.expedia.com"
     }
 }

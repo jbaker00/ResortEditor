@@ -7,21 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001939B47383AC89ADA00E99 /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A90D42BD56B00B3A820CCB8 /* Resort.swift */; };
+		0CF6ACA8FC1AC0211E565978 /* macOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66ADC39BEF2259A465A5FE81 /* macOS-Info.plist */; };
 		0DF98A057B4E1EA249F427B1 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F76596D7469391382E13B04 /* AuthView.swift */; };
+		1544B651CB9E2C93D67BD7AD /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F76596D7469391382E13B04 /* AuthView.swift */; };
+		1B6B80FC04E6741DB20DE0F1 /* ResortEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E0B0719403643411F4E82A /* ResortEditorApp.swift */; };
+		1BB952CF24F71D78790AAF82 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9A704B5C261D533998AE0159 /* FirebaseFirestore */; };
+		1D2A47349EDC7DD4A4FD5CF4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50F764DD3BEB994EBEC3F5CC /* GoogleService-Info.plist */; };
 		1FF0F23AA329E551CEABD68A /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A90D42BD56B00B3A820CCB8 /* Resort.swift */; };
+		2374B195F5A81F1A2CB0B8E0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DA28F57CE46CB6C5726A847 /* Info.plist */; };
 		2DDA66CAE3D3CD21E2458DDE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0DC73F44FD6F071AF0680796 /* FirebaseAuth */; };
 		3F5434F5E3C2101E5E856DCC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BA3E8FCF8334C4D35AA893 /* MainView.swift */; };
+		4066DB561418DB3CD71307AF /* ResortListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E008D967DAF97F8401CB3A /* ResortListView.swift */; };
 		482D8C3AD82FA140AEAACC58 /* ResortListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E008D967DAF97F8401CB3A /* ResortListView.swift */; };
+		52EBC92C77BC0DD7FFE3A68F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C563783E62EBBC0C3429AE89 /* Assets.xcassets */; };
+		56E9E033F2EF2ACBF7780A93 /* ResortFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B105214079594514414C5EC9 /* ResortFormView.swift */; };
+		5B14E96B61FB49136C9C01D2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E68E7155A8096E8C39A08A67 /* FirebaseAuth */; };
+		667D4EEB187A8F5E95226B4E /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 383371C6827CF81611957AEE /* GoogleSignIn */; };
 		69BE76B982F9F2E71885C228 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 089B6718B10BA56AE68F260B /* GoogleSignIn */; };
 		6BEBE196AD194DA42DA30124 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3E34B08EBA9B216ECCAF8B6F /* FirebaseFirestore */; };
 		700ECD59D2A3B341EE0A9192 /* ResortFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B105214079594514414C5EC9 /* ResortFormView.swift */; };
+		7083A99E4D56955F0398C11C /* ResortViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E675FF2EE0B3EBCD048063 /* ResortViewModel.swift */; };
 		7472AF6EA7DAA00295EC4A51 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C07ACE10B7ECFFE92D46E93 /* AuthService.swift */; };
 		80DE51B0889E4710CEFE6509 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50F764DD3BEB994EBEC3F5CC /* GoogleService-Info.plist */; };
+		8BD5C506165EEE95F066EA8D /* GoogleService-Info.plist.template in Resources */ = {isa = PBXBuildFile; fileRef = B30D1521C7B213C65467AA5E /* GoogleService-Info.plist.template */; };
+		8D75907DF0C0C55E1BCC317A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C07ACE10B7ECFFE92D46E93 /* AuthService.swift */; };
 		AF9DF73C54ECA48F2200A167 /* ResortViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E675FF2EE0B3EBCD048063 /* ResortViewModel.swift */; };
+		B7962F62F08D4918BC9EF36E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1EBDA0FD786B1BDFAD8C0 /* ContentView.swift */; };
+		C42EE43D948B9DE950A8D558 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 632775BFE95DA952F5A0EF0A /* GoogleSignInSwift */; };
 		CD035509A0B491A99ADAA4CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1EBDA0FD786B1BDFAD8C0 /* ContentView.swift */; };
+		D4227C55B56E3B127F309435 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BA3E8FCF8334C4D35AA893 /* MainView.swift */; };
 		DA7BC52FBCA7D4553AEC8B77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C563783E62EBBC0C3429AE89 /* Assets.xcassets */; };
 		DC3FBEA7A389F2A26ECC61A7 /* ResortEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E0B0719403643411F4E82A /* ResortEditorApp.swift */; };
 		E1F9663314B84AB06B72A65E /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E29A11E832B08EA5BC879964 /* GoogleSignInSwift */; };
+		E25956971427AB088F1A1CF2 /* GoogleService-Info.plist.template in Resources */ = {isa = PBXBuildFile; fileRef = B30D1521C7B213C65467AA5E /* GoogleService-Info.plist.template */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,14 +49,17 @@
 		4A90D42BD56B00B3A820CCB8 /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
 		4F76596D7469391382E13B04 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		50F764DD3BEB994EBEC3F5CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		66ADC39BEF2259A465A5FE81 /* macOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "macOS-Info.plist"; sourceTree = "<group>"; };
 		66E008D967DAF97F8401CB3A /* ResortListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortListView.swift; sourceTree = "<group>"; };
 		6C07ACE10B7ECFFE92D46E93 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		75BA3E8FCF8334C4D35AA893 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		88C1EBDA0FD786B1BDFAD8C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9DA28F57CE46CB6C5726A847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B105214079594514414C5EC9 /* ResortFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortFormView.swift; sourceTree = "<group>"; };
+		B30D1521C7B213C65467AA5E /* GoogleService-Info.plist.template */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "GoogleService-Info.plist.template"; sourceTree = "<group>"; };
 		B6C04D052A3AFACCC8CCF6CC /* ResortEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResortEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C563783E62EBBC0C3429AE89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6ED219A0638ABFB9F143AA2 /* ResortEditorMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResortEditorMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +71,17 @@
 				2DDA66CAE3D3CD21E2458DDE /* FirebaseAuth in Frameworks */,
 				69BE76B982F9F2E71885C228 /* GoogleSignIn in Frameworks */,
 				E1F9663314B84AB06B72A65E /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6526B655CA67CB6C7EF70D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB952CF24F71D78790AAF82 /* FirebaseFirestore in Frameworks */,
+				5B14E96B61FB49136C9C01D2 /* FirebaseAuth in Frameworks */,
+				667D4EEB187A8F5E95226B4E /* GoogleSignIn in Frameworks */,
+				C42EE43D948B9DE950A8D558 /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				B6C04D052A3AFACCC8CCF6CC /* ResortEditor.app */,
+				D6ED219A0638ABFB9F143AA2 /* ResortEditorMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,7 +168,9 @@
 			children = (
 				C563783E62EBBC0C3429AE89 /* Assets.xcassets */,
 				50F764DD3BEB994EBEC3F5CC /* GoogleService-Info.plist */,
+				B30D1521C7B213C65467AA5E /* GoogleService-Info.plist.template */,
 				9DA28F57CE46CB6C5726A847 /* Info.plist */,
+				66ADC39BEF2259A465A5FE81 /* macOS-Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -165,6 +201,29 @@
 			productReference = B6C04D052A3AFACCC8CCF6CC /* ResortEditor.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F912C3390DC606658D473AD6 /* ResortEditorMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DABB311FD6D664B4F2372A2 /* Build configuration list for PBXNativeTarget "ResortEditorMac" */;
+			buildPhases = (
+				7A4A4D60FA197BCFB286C84B /* Sources */,
+				8E6FC7F2895F269BADA629ED /* Resources */,
+				6526B655CA67CB6C7EF70D2B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResortEditorMac;
+			packageProductDependencies = (
+				9A704B5C261D533998AE0159 /* FirebaseFirestore */,
+				E68E7155A8096E8C39A08A67 /* FirebaseAuth */,
+				383371C6827CF81611957AEE /* GoogleSignIn */,
+				632775BFE95DA952F5A0EF0A /* GoogleSignInSwift */,
+			);
+			productName = ResortEditorMac;
+			productReference = D6ED219A0638ABFB9F143AA2 /* ResortEditorMac.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,7 +231,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 2620;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					F912C3390DC606658D473AD6 = {
+						DevelopmentTeam = 4PDB3TQD2G;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = B050842EB90F9BBF92400558 /* Build configuration list for PBXProject "ResortEditor" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -192,6 +257,7 @@
 			projectRoot = "";
 			targets = (
 				AB5655EDF65D35EA93B9C73E /* ResortEditor */,
+				F912C3390DC606658D473AD6 /* ResortEditorMac */,
 			);
 		};
 /* End PBXProject section */
@@ -203,12 +269,41 @@
 			files = (
 				DA7BC52FBCA7D4553AEC8B77 /* Assets.xcassets in Resources */,
 				80DE51B0889E4710CEFE6509 /* GoogleService-Info.plist in Resources */,
+				8BD5C506165EEE95F066EA8D /* GoogleService-Info.plist.template in Resources */,
+				0CF6ACA8FC1AC0211E565978 /* macOS-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6FC7F2895F269BADA629ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EBC92C77BC0DD7FFE3A68F /* Assets.xcassets in Resources */,
+				1D2A47349EDC7DD4A4FD5CF4 /* GoogleService-Info.plist in Resources */,
+				E25956971427AB088F1A1CF2 /* GoogleService-Info.plist.template in Resources */,
+				2374B195F5A81F1A2CB0B8E0 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7A4A4D60FA197BCFB286C84B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D75907DF0C0C55E1BCC317A /* AuthService.swift in Sources */,
+				1544B651CB9E2C93D67BD7AD /* AuthView.swift in Sources */,
+				B7962F62F08D4918BC9EF36E /* ContentView.swift in Sources */,
+				D4227C55B56E3B127F309435 /* MainView.swift in Sources */,
+				001939B47383AC89ADA00E99 /* Resort.swift in Sources */,
+				1B6B80FC04E6741DB20DE0F1 /* ResortEditorApp.swift in Sources */,
+				56E9E033F2EF2ACBF7780A93 /* ResortFormView.swift in Sources */,
+				4066DB561418DB3CD71307AF /* ResortListView.swift in Sources */,
+				7083A99E4D56955F0398C11C /* ResortViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		808017FFB043D8690AE84742 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -235,18 +330,41 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
+				DEVELOPMENT_TEAM = G3P9A8Z2NP;
 				INFOPLIST_FILE = Sources/ResortEditor/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.globalvibes.ResortEditor;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D72162C6FEB50D9ECEE6DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4PDB3TQD2G;
+				INFOPLIST_FILE = "Sources/ResortEditor/Resources/macOS-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalvibes.ResortEditorMac;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
 			};
 			name = Release;
 		};
@@ -285,8 +403,8 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = G3P9A8Z2NP;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -302,13 +420,34 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
+		};
+		649D542F84F9ECCCC06E662E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4PDB3TQD2G;
+				INFOPLIST_FILE = "Sources/ResortEditor/Resources/macOS-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalvibes.ResortEditorMac;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
 		};
 		66F484E41F9F6F01CEB462FD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -345,8 +484,8 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = G3P9A8Z2NP;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -369,7 +508,6 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -384,13 +522,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
+				DEVELOPMENT_TEAM = G3P9A8Z2NP;
 				INFOPLIST_FILE = Sources/ResortEditor/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.globalvibes.ResortEditor;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = YES;
@@ -407,6 +546,15 @@
 			buildConfigurations = (
 				79FCAE04E7BBA4AC65A0713D /* Debug */,
 				08860C8EC9AC490C084162E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9DABB311FD6D664B4F2372A2 /* Build configuration list for PBXNativeTarget "ResortEditorMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649D542F84F9ECCCC06E662E /* Debug */,
+				2D72162C6FEB50D9ECEE6DD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -452,7 +600,22 @@
 			package = D68535749D56834DC4EE69C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
 		};
+		383371C6827CF81611957AEE /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CF426217DF4F1D9E68C7E0A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
 		3E34B08EBA9B216ECCAF8B6F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D68535749D56834DC4EE69C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		632775BFE95DA952F5A0EF0A /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CF426217DF4F1D9E68C7E0A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		9A704B5C261D533998AE0159 /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D68535749D56834DC4EE69C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
@@ -461,6 +624,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7CF426217DF4F1D9E68C7E0A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
 			productName = GoogleSignInSwift;
+		};
+		E68E7155A8096E8C39A08A67 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D68535749D56834DC4EE69C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
